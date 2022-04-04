@@ -1,0 +1,17 @@
+@use 'variables' as var;
+
+html{
+    background-color: var.$white;
+}
+
+%button{
+    padding: 1rem;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+
+
+
+
+
