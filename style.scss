@@ -17,16 +17,20 @@ html{
     gap: 3rem;
 }
 
+.e{
+    line-height: 2.5;
+}
 
-@for $var from 0 to 4 {
-    .m-#{$var+1}{
-        margin: $var+1+rem 0;
+
+@for $var from 0 to 5 {
+    .m-#{$var}{
+        margin: 0 0 $var+rem 0 ;
     }
 }
 
 %button{
     border: none;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 4rem;
     border-radius: 2em;
     cursor: pointer;
 }

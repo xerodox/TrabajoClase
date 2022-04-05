@@ -71,25 +71,33 @@ html {
   gap: 3rem;
 }
 
+.e {
+  line-height: 2.5;
+}
+
+.m-0 {
+  margin: 0 0 0rem 0;
+}
+
 .m-1 {
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .m-2 {
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .m-3 {
-  margin: 3rem 0;
+  margin: 0 0 3rem 0;
 }
 
 .m-4 {
-  margin: 4rem 0;
+  margin: 0 0 4rem 0;
 }
 
 .button-white, .button-red {
   border: none;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 4rem;
   border-radius: 2em;
   cursor: pointer;
 }
