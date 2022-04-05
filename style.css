@@ -5,37 +5,37 @@
   font-style: 700;
   font-weight: bold;
 }
-.Futura {
+.futura {
   font-family: "Futura Bold";
   font-weight: 700;
   font-size: 52px;
 }
 
-.Raleway-regular {
+.raleway-regular {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 22px;
 }
 
-.Raleway-medium {
+.raleway-medium {
   font-family: "Raleway";
   font-weight: 500;
   font-size: 20px;
 }
 
-.Raleway-bold {
+.raleway-bold {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 22px;
 }
 
-.Poppins-medium {
+.poppins-medium {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 50px;
 }
 
-.Poppins-bold {
+.poppins-bold {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 67px;
@@ -109,6 +109,10 @@ html {
   padding: 1.5rem 4rem;
   border-radius: 2em;
   cursor: pointer;
+}
+.button-white:hover, .button-red:hover {
+  background-color: rgb(36, 27, 27);
+  color: white;
 }
 
 .button-red {
