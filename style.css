@@ -124,4 +124,15 @@ html {
   box-shadow: 0px 3px 8px #b6b6b6;
 }
 
+.icon {
+  gap: 80.8%;
+}
+
+.position {
+  position: relative;
+  top: 25%;
+  left: 6%;
+  gap: 80.8%;
+}
+
 /*# sourceMappingURL=style.css.map */
