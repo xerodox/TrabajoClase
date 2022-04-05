@@ -8,17 +8,16 @@ html{
 //display-grid para dividir
 
 .container{
-    padding: 0 3rem;
+    padding: 0 5rem;
     display: grid;    
 }
 
 .line{
     position: absolute;
     border-left: thick solid #D85A5A;
-    height:30%;
-    width: 10%;
-    top: 18%;
-    left: 2%;
+    height:33vh;
+    top: 18vh;
+    left: 3%;
     border-width: .5rem;
 }
 
