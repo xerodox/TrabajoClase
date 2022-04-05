@@ -8,37 +8,37 @@
 .Futura {
   font-family: "Futura Bold";
   font-weight: 700;
-  font-size: 52;
+  font-size: 52px;
 }
 
 .Raleway-regular {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 22;
+  font-size: 22px;
 }
 
 .Raleway-medium {
   font-family: "Raleway";
   font-weight: 500;
-  font-size: 20;
+  font-size: 20px;
 }
 
 .Raleway-bold {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 22;
+  font-size: 22px;
 }
 
 .Poppins-medium {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 50;
+  font-size: 50px;
 }
 
 .Poppins-bold {
   font-family: "Poppins";
   font-weight: 700;
-  font-size: 67;
+  font-size: 67px;
 }
 
 .red-icons {
@@ -57,9 +57,43 @@
   color: #000000;
 }
 
+html {
+  width: 100%;
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+}
+
+.container-b {
+  display: inline-flex;
+  gap: 3rem;
+}
+
+.m-2 {
+  margin-top: 0%;
+  margin-bottom: 2rem;
+}
+
+.m-4 {
+  margin-top: 0%;
+  margin-bottom: 4rem;
+}
+
+.m-6 {
+  margin-top: 0%;
+  margin-bottom: 6rem;
+}
+
+.m-8 {
+  margin-top: 0%;
+  margin-bottom: 8rem;
+}
+
 .button-white, .button-red {
   border: none;
-  padding: 1rem;
+  padding: 1.5rem 3rem;
   border-radius: 2em;
   cursor: pointer;
 }

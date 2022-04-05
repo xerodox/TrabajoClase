@@ -1,16 +1,33 @@
 @use 'variables' as var;
 
 html{
+    width: 100%;
     
 }
 
 //display-grid para dividir
 
+.container{
+    padding: 2rem;
+    display: grid;
+}
 
+.container-b{
+    display: inline-flex;
+    gap: 3rem;
+}
+
+
+@for $var from 1 to 5 {
+    .m-#{$var*2}{
+        margin-top: 0%;
+        margin-bottom: $var*2+rem;
+    }
+}
 
 %button{
     border: none;
-    padding: 1rem;
+    padding: 1.5rem 3rem;
     border-radius: 2em;
     cursor: pointer;
 }

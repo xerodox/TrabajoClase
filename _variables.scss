@@ -11,12 +11,12 @@
   
 
 $tipografias:(
-    ("Futura",700,"Futura Bold",52),
-    ("Raleway-regular",400,"Raleway",22),
-    ("Raleway-medium",500,"Raleway",20),
-    ("Raleway-bold",700,"Raleway",22),
-    ("Poppins-medium",500,"Poppins",50),
-    ("Poppins-bold",700,"Poppins",67)
+    ("Futura",700,"Futura Bold",52px),
+    ("Raleway-regular",400,"Raleway",22px),
+    ("Raleway-medium",500,"Raleway",20px),
+    ("Raleway-bold",700,"Raleway",22px),
+    ("Poppins-medium",500,"Poppins",50px),
+    ("Poppins-bold",700,"Poppins",67px)
 );
 
 @each $tp in $tipografias {
