@@ -66,6 +66,16 @@ html {
   display: grid;
 }
 
+.line {
+  position: absolute;
+  border-left: thick solid #D85A5A;
+  height: 30%;
+  width: 10%;
+  top: 18%;
+  left: 2%;
+  border-width: 0.5rem;
+}
+
 .container-i {
   display: inline-flex;
   gap: 3rem;
