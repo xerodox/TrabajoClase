@@ -1,6 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@400;500;700&display=swap");
-html {
-  background-color: #FFFFFF;
+@font-face {
+  font-family: "Futura Bold";
+  src: url("/Futura Bold font.ttf") format("truetype");
+  font-style: 700;
+  font-weight: bold;
+}
+.Futura {
+  font-family: "Futura Bold";
+  font-weight: 700;
+  font-size: 52;
+}
+
+.Raleway-regular {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 22;
+}
+
+.Raleway-medium {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20;
+}
+
+.Raleway-bold {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 22;
+}
+
+.Poppins-medium {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 50;
+}
+
+.Poppins-bold {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 67;
+}
+
+.red-icons {
+  color: #D85A5A;
+}
+
+.red-text {
+  color: #9E7474;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #000000;
+}
+
+.button-white, .button-red {
+  border: none;
+  padding: 1rem;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.button-red {
+  background-color: #D85A5A;
+}
+
+.button-white {
+  background-color: white;
+  box-shadow: 0px 3px 8px #b6b6b6;
 }
 
 /*# sourceMappingURL=style.css.map */

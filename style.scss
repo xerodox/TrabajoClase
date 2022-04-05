@@ -1,13 +1,29 @@
 @use 'variables' as var;
 
 html{
-    background-color: var.$white;
+    
 }
 
+//display-grid para dividir
+
+
+
 %button{
+    border: none;
     padding: 1rem;
     border-radius: 2em;
     cursor: pointer;
+}
+
+.button-red{
+    @extend %button;
+    background-color: #D85A5A;
+}
+
+.button-white{
+    @extend %button;
+    background-color: #ffff;
+    box-shadow: 0px 3px 8px #b6b6b6;
 }
 
 

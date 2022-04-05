@@ -1,12 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@400;500;700&display=swap');
 
 //tipografias
-$tp-raleway:Raleway;
-$tp-poppins:Poppins;
+@font-face {
+    font-family: "Futura Bold";
+    src: url("/Futura Bold font.ttf") format("truetype");
+    font-style: 700;
+    font-weight: bold;
+  }
+
+  
+
+$tipografias:(
+    ("Futura",700,"Futura Bold",52),
+    ("Raleway-regular",400,"Raleway",22),
+    ("Raleway-medium",500,"Raleway",20),
+    ("Raleway-bold",700,"Raleway",22),
+    ("Poppins-medium",500,"Poppins",50),
+    ("Poppins-bold",700,"Poppins",67)
+);
+
+@each $tp in $tipografias {
+    .#{nth($tp,1)}{
+        font-family: nth($tp,3);
+        font-weight: nth($tp,2);
+        font-size: nth($tp,4);
+    }
+}
 
 
 //colores
-$red-icons: #D85A5A;
-$red-text: #9E7474;
-$white:#FFFFFF;
-$black: #000000;
+$colores:(
+    ("red-icons",#D85A5A),
+    ("red-text",#9E7474),
+    ("white",#FFFFFF),
+    ("black",#000000)
+);
+
+@each $cl in $colores {
+    .#{nth($cl,1)}{
+        color: #{nth($cl,2)};
+    }
+    
+};
